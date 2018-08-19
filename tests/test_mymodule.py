@@ -1,10 +1,8 @@
-from unittest.mock import Mock
-
 from demo.mymodule import f
 
 
-def test_f(monkeypatch):
-    choice_mock = Mock()
+def test_f(monkeypatch, mocker):
+    choice_mock = mocker.Mock()
     choice_mock.return_value = "réponse renvoyée par le mock de random.choice"
     monkeypatch.setattr(
         'demo.mymodule.choice', 
