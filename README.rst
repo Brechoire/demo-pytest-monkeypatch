@@ -1,8 +1,8 @@
 Simple pytest monkeypatching demo
 =================================
 
-This simple project aims at demonstrating how to use the pytest monkeypatch 
-fixture to monkeypatch a standard library function with a mock.
+This very simple project aims at demonstrating how to use the pytest monkeypatch 
+fixture to monkey patch a standard library function with a mock.
 
 Running the demo
 ----------------
