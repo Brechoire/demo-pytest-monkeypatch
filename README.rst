@@ -4,6 +4,11 @@ Simple pytest monkeypatching demo
 This simple project aims at demonstrating how to use the pytest monkeypatch 
 fixture to monkeypatch a standard library function with a mock.
 
+Dependencies
+------------
+This demo use the pytest-mock plugin to handle the creation of Mock()
+instances
+
 Running the demo
 ----------------
 
